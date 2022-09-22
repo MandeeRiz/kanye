@@ -10,6 +10,10 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// type kanyeSays struct {
+// 	Quote string `json:"quote"`
+// }
+
 // Get Quote from API and return as string
 func Quote() string {
 	response, err := http.Get("https://api.kanye.rest")
